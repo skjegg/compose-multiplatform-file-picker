@@ -42,8 +42,8 @@ kotlin {
 		binaries.executable()
 	}
 
-	macosX64()
-
+	//macosX64()
+/*
 	listOf(
 		iosX64(),
 		iosArm64(),
@@ -53,7 +53,7 @@ kotlin {
 			baseName = "MPFilePicker"
 		}
 	}
-
+*/
 	sourceSets {
 		commonMain.dependencies {
 			api(compose.runtime)
